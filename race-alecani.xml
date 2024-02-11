@@ -20,7 +20,6 @@
 	<span class="feature">Designed for battles of death</span>Because of the natural reason that golems are used they are built to be more advanced on their physical side. While creating your character you may choose up to 2 skill points to remove from intelligence and add to either constitution or strength.<br/>
     </description>
     <sheet display="false"/>
-    <supports />
     <rules>
       <stat name="constitution" value="2"/>
       <stat name="any" value="1"/>
