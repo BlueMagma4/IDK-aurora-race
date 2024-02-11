@@ -25,7 +25,7 @@
       <stat name="any" value="1"/>
       <stat name="innate speed" value="30" bonus="base"/>
       <grant type="Size" id="ID_SIZE_MEDIUM" />
-      <grant type="Language" id="ID_LANGUAGE_VA-NOX" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_HIBERNATION MODE" />
 	<grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_DESIGNED_FOR_DEATH" />
     </rules>
