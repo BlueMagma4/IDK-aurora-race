@@ -11,35 +11,34 @@
   <element name="Golem" type="Race" source="Homebrew" id="ID_HMBRW_RACE_GOLEM">
     <description>
       <h4>Golem</h4>
-      <p>These fox-like winged creatures are often found up in the mountains or hard to reach places. They're a very friendly people, welcoming of all travelers that don't bear ill will.</p> 
-      <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 2, and one other ability score increases by 1.<br/>
-      <span class="feature">Age.</span>Alecani reach maturity around the age of 15 and live for about 200 years.<br/>
-	  <span class="feature">Alignment</span>The Alecani mostly tend towards more chaotic alignments, but are rarely ever evil.<br/>
-      <span class="feature">Size.</span>Alecani stand at about two to four feet tall, but usually somewhere in the middle. They have thin, deceptively lightweight bodies around 30 to 60 pounds. Your size is Small.<br/>
+      <span class="feature">Ability Score Increase.</span>Your Constitution increases by 2, and one other ability score increases by 1.<br/>
+      <span class="feature">Age.</span>Golems are not born as mortals are, and they do not age as mortals do. They are constructed, so your character's age is based upon when you were created or emerged from the wild.<br/>
+	<span class="feature">Alignment</span>Golems, especially inorganic golems, are programmed to carry out the will of their creators. Therefore, they tend toward lawful alignments.<br/>
+      <span class="feature">Size.</span>The most powerful golems, particularly those constructed by legendary artificers or born of fabled, magical sources, may tower above mortals. However, most appear a bit taller than most humans.<br/>
       <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
-      <span class="feature">Darkvision.</span>Alecani are adapted for living and flying at twilight hours. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
-      <span class="feature">Wings.</span>You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.<br/>
+      <span class="feature">Hibernation Mode</span>When you take a long rest, you do not sleep. Instead, you must spend at least six hours in an inactive motionless state. In this state, you appear inert, but it does not render you unconscious. You continue to see and hear with Disadvantage to your Perception checks. You also don't need to eat or drink, and you are immune to poison.<br/>
+	<span class="feature">Designed for battles of death</span>Because of the natural reason that golems are used they are built to be more advanced on their physical side. While creating your character you may choose up to 2 skill points to remove from intelligence and add to either constitution or strength.<br/>
     </description>
     <sheet display="false"/>
     <supports />
     <rules>
-      <stat name="dexterity" value="2"/>
+      <stat name="constitution" value="2"/>
       <stat name="any" value="1"/>
       <stat name="innate speed" value="30" bonus="base"/>
-      <grant type="Vision" id="ID_VISION_DARKVISION" />
       <grant type="Size" id="ID_SIZE_MEDIUM" />
-      <grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <select type="Language" name="ID_LANGUAGE_AURAN" />
-      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings" />
+      <grant type="Language" id="ID_LANGUAGE_VA-NOX" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_HIBERNATION MODE" />
+	<grant type"Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_DESIGNED FOR DEATH" />
     </rules>
   </element>
   
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings">
+   <element name="Hibernation Mode" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_HIBERNATION MODE">
     <description>
-			<p> You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</p>
+			<p> When you take a long rest, you do not sleep. Instead, you must spend at least six hours in an inactive motionless state. In this state, you appear inert, but it does not render you unconscious. You continue to see and hear with Disadvantage to your Perception checks. You also don't need to eat or drink, and you are immune to poison.</p>
 		</description>
-		<sheet display="false">
-			<description> You have a flying speed of 30 feet. To use this speed, you can’t be wearing medium or heavy armor, or armor you are not proficient in.</description>
-		</sheet>
   </element>
+<element name="Designed for battles of death" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_GOLEM_DESIGNED FOR DEATH">
+	<description> 
+			<p> because of the natural reason that golems are used they are built to be more advanced on their physical side. While creating your character you may choose up to 2 skill points to remove from intelligence and add to either constitution or strength.</p>
+	</description>
 </elements>
