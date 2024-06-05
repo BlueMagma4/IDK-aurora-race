@@ -29,7 +29,6 @@
        <stat name="innate speed" value="25" bonus="base"/>
         <grant type="Size" id="ID_SIZE_SMALL" />
         <grant type="Language" id="ID_LANGUAGE_COMMON" />
-        <grant type="Language" id="any" />
         <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE NIMBLENESS" />
 	      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE KNOWLEDGE" />
         <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_SOUL AND BODY"/>
