@@ -19,7 +19,8 @@
       <span class="feature">Yordle nimbleness:</span>You can move through the space of a creature larger than you.<br/>
       <span class="feature">Yordle knowledge:</span>Because you have been around for so long you are aware of key parts of history where you have certain memories of places or events.<br/>
     	<span class="feature">Soul and Body:</span>yordles have a link to the spiritual world which is why when a yordles body gives in their soul continues on to find a new body and carry on.<br/>
-      <span class="feature">Lucky:</span>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.
+      <span class="feature">Lucky:</span>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.<br/>
+																						
           </description>
     <sheet display="false"/>
      <rules>
