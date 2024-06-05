@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Yordle</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Yordle.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Yordle" type="Race" source="Homebrew" id="ID_HMBRW_RACE_YORDLE">
+    <description>
+      <h4>Yordle</h4>
+      <span class="feature">Ability Score Increase.</span>Your dexterity and charisma score both increase by 1, and one other ability score increases by 1.<br/>
+      <span class="feature">Age.</span>Yordles do not have a known lifespan, for no one has lived long enough to see one die of old age nor are Yordles ones to speak about it. Centuries can pass for a Yordle without the slightest change in their youthfulness.<br/>
+    	<span class="feature">Alignment.</span>Most yordles are good, but what defines them most is how they have been taught by those around them.<br/>
+      <span class="feature">Size.</span>Yordles tend to stand about 2-3 feet and weigh about 40 pounds. Your size is small<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br/>
+      <span class="feature">Yordle nimbleness:</span>You can move through the space of a creature larger than you.<br/>
+      <span class="feature">Yordle knowledge:</span>Because you have been around for so long you are aware of key parts of history where you have certain memories of places or events.<br/>
+    	<span class="feature">Soul and Body:</span>yordles have a link to the spiritual world which is why when a yordles body gives in their soul continues on to find a new body and carry on.<br/>
+      <span class="feature">Lucky:</span>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.
+          </description>
+    <sheet display="false"/>
+     <rules>
+       <stat name="Dexterity" value="1"/>
+       <stat name="Charisma" value="1"/>
+       <stat name="any" value="1"/>
+       <stat name="innate speed" value="25" bonus="base"/>
+        <grant type="Size" id="ID_SIZE_SMALL" />
+        <grant type="Language" id="ID_LANGUAGE_COMMON" />
+        <grant type="Language" id="any" />
+        <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE NIMBLENESS" />
+	      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE KNOWLEDGE" />
+        <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_SOUL AND BODY"/>
+        <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_LUCKY"/>
+       
+    </rules>
+ </element>
+  
+   <element name="Yordle nimbleness" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE NIMBLENESS">
+    <description>
+			<p>You can move through the space of a creature larger than you.</p>
+		</description>
+  </element>
+  
+   <element name="Yordle knowledge" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_YORDLE KNOWLEDGE">
+   	<description> 
+	  	<p>Because you have been around for so long you are aware of key parts of history where you have certain memories of places or events. </p>
+	  </description>  
+  </element>
+  
+     <element name="Soul and Body" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_SOUL AND BODY">
+   	<description> 
+	  	<p>Yordles have a link to the spiritual world which is why when a yordles body gives in their soul continues on to find a new body and carry on.</p>
+	  </description>
+  </element>
+
+
+     <element name="Lucky" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_YORDLE_LUCKY">
+   	<description> 
+	  	<p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.</p>
+	  </description>
+  </element>
+  
+</elements>
