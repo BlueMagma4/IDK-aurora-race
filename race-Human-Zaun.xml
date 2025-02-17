@@ -70,6 +70,7 @@
 		<rules>
 			<stat name="wisdom" value="1"/>
 		</rules>
+	</element>
 	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_CHARISMA">
 		<compendium display="false" />
 		<supports>Zaunian</supports>
@@ -79,7 +80,6 @@
 		<rules>
 			<stat name="charisma" value="1"/>
 		</rules>
-	</element>
 	</element>
 	<element name="Fury of the small" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_FURY">
 		<description>
