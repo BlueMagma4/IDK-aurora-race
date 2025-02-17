@@ -1,1 +1,31 @@
+"<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zaunian</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Human-Zaun.xml" url=""/>
+		</update>
+	</info>
 
+<element name="Humanoid" type="Race Variant" source="Homebrew" id="ID_RACE_VARIANT_HUMAN_ZAUN">
+    <supports>Human</supports>
+    <description>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Two ability scores each increase by 1.<br />
+        <span class="feature">Skills.</span>You gain proficiency in one skill of your choice.<br />
+        <span class="feature">Feat.</span>You gain one feat of your choice.<br />
+      </p>
+    </description>
+    <sheet alt="Human" display="true"/>
+    <rules>
+    <description>
+      <p> WIP</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Const score increases by 1.</p>
+    </description>
+    <rules>
+      <stat name="constitution" value="1" />      
+    </rules>
+      <select type="Feat" name="Feat (Human Variant)" />
+    </rules>
+  </element>
