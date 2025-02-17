@@ -11,7 +11,7 @@
      <sheet display="false"/>
 <rules>
       <stat name="Dexterity" value="1"/>
-	<select type="Racial Trait" name="Ability Score Increase (Human)" number="2"
+	<select type="Racial Trait" name="Ability Score Increase (Human)" number="2"/>
 <stat name="innate speed" value="30" bonus="base"/>
 <stat name="initiative:misc" value="proficiency" alt="Forseen strikes" />
 <grant type="Size" id="ID_SIZE_MEDIUM" />
