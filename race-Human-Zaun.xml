@@ -10,14 +10,14 @@
     </description>
      <sheet display="false"/>
 <rules>
-      <stat name="Dexterity" value="1"/>
+	<stat name="Dexterity" value="1"/>
 	<select type="Racial Trait" name="Ability Score Increase (Human)" number="2"/>
-<stat name="innate speed" value="30" bonus="base"/>
-<stat name="initiative:misc" value="proficiency" alt="Forseen strikes" />
-<grant type="Size" id="ID_SIZE_MEDIUM" />
-<grant type="Language" id="ID_LANGUAGE_COMMON" />
-<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_FURY" />
-<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_SECRET" />
+	<stat name="innate speed" value="30" bonus="base"/>
+	<stat name="initiative:misc" value="proficiency" alt="Forseen strikes" />
+	<grant type="Size" id="ID_SIZE_MEDIUM" />
+	<grant type="Language" id="ID_LANGUAGE_COMMON" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_FURY" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_SECRET" />
 </rules>
 </element>
 
