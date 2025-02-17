@@ -10,11 +10,11 @@
 
 <element name="Zaunian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_ZAUN">
     <description>
-      <p>
+	     <h4>Zaunian</h4>
         <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 1, and two other ability scores each increase by 1.<br />
-        <span class="feature">Skills.</span>You gain proficiency in one skill of your choice.<br />
-        <span class="feature">Feat.</span>You gain one feat of your choice.<br />
-      </p>
+   	<span class="feature">Secrets of the low life.</span>You have a keen eye for criminal undertakings and can easily spot a leader of a criminal organization.<br />
+	<span class="feature">Foreseen strikes. </span>Due to the backstabs you have experienced in Zaun you are aware of sudden changes in the mood. You gain a bonus to initiative equal to your Proficiency Bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.<br />
+	    
     </description>
      <sheet display="false"/>
 <rules>
