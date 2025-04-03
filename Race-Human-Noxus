@@ -18,8 +18,8 @@
 	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_THREAT" />
 	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_COMBAT" />
 	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_PRIDE" />
-	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"
-	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS"
+	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 </rules>
 </element>
 
