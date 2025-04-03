@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-<element name="Zaunian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_ZAUN">
+<element name="Noxia" type="Race" source="Homebrew" id="ID_HMBRW_RACE_ZAUN">
     <description>
-	     <h4>Zaunian</h4>
-        <span class="feature">Ability Score Increase.</span>Your Dexterity increases by 1, and two other ability scores each increase by 1.<br />
-   	<span class="feature">Secrets of the low life.</span>You have a keen eye for criminal undertakings and can easily spot a leader of a criminal organization.<br />
-	<span class="feature">Foreseen strikes. </span>Due to the backstabs you have experienced in Zaun you are aware of sudden changes in the mood. You gain a bonus to initiative equal to your Proficiency Bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.<br />
-	    
+	     <h4>Noxian</h4>
+        <span class="feature">Ability Score Increase.</span>Your Strength increases by 1, and two other ability scores each increase by 1.<br />
+   	<span class="feature">Noxian Pride</span>You gain a bonus to your constitution saves equal to your proficiency bonus.<br />
+	<span class="feature">Threatening presence</span>You gain advantage on intimidation checks against non- noxian creatures.<br />
+	<span class="feature">Combat Ready</span>You are proficient with all martial and simple weapons.<br />	    
     </description>
      <sheet display="false"/>
 <rules>
-	<stat name="Dexterity" value="1"/>
-	<select type="Racial Trait" name="Ability Score Increase (Human)" supports="Zaunian" number="2"/>
+	<stat name="Strength" value="1"/>
+	<select type="Racial Trait" name="Ability Score Increase (Human)" supports="Noxian" number="2"/>
 	<stat name="innate speed" value="30" bonus="base"/>
-	<stat name="initiative:misc" value="proficiency" alt="Forseen strikes" />
 	<grant type="Size" id="ID_SIZE_MEDIUM" />
 	<grant type="Language" id="ID_LANGUAGE_COMMON" />
-	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_FURY" />
-	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ZAUNIAN_SECRET" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_THREAT" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_COMBAT" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NOXIAN_PRIDE" />
+	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"
+	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS"
 </rules>
 </element>
 
-	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_STRENGTH">
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_STRENGTH">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Strength score increases by 1.</p>
 		</description>
@@ -31,9 +33,9 @@
 			<stat name="strength" value="1"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_DEXTERITY">
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_DEXTERITY">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Dexterity score increases by 1.</p>
 		</description>
@@ -41,9 +43,9 @@
 			<stat name="dexterity" value="1"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_CONSTITUTION">
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_CONSTITUTION">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Constitution score increases by 1.</p>
 		</description>
@@ -51,9 +53,9 @@
 			<stat name="constitution" value="1"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_INTELLIGENCE">
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Intelligence score increases by 1.</p>
 		</description>
@@ -61,9 +63,9 @@
 			<stat name="intelligence" value="1"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_WISDOM">
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_WISDOM">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Wisdom score increases by 1.</p>
 		</description>
@@ -71,9 +73,9 @@
 			<stat name="wisdom" value="1"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_CHARISMA">
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_CHARISMA">
 		<compendium display="false" />
-		<supports>Zaunian</supports>
+		<supports>Noxian</supports>
 		<description>
 			<p>Your Charisma score increases by 1.</p>
 		</description>
@@ -81,14 +83,22 @@
 			<stat name="charisma" value="1"/>
 		</rules>
 	</element>
-	<element name="Fury of the small" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_FURY">
+	<element name="Noxian Pride" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_PRIDE">
 		<description>
-		<p> When you damage a creature with an attack or a spell and the creature’s size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn.</p> 
+		<p>You gain a bonus to your constitution saves equal to your proficiency bonus</p> 
+		</description>
+		<rules>
+			<stat name="constitution:save:proficiency" value="proficiency"/>
+		</rules>
+	</element>
+	<element name="Threatening presence" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_THREAT">
+		<description>
+		<p>You gain advantage on intimidation checks against non- noxian creatures</p> 
 		</description>
 	</element>
-	<element name="Secrets of the lowlife" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ZAUNIAN_SECRET">
+	<element name="Combat Ready" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_COMBAT">
 		<description>
-		<p>You have a keen eye for criminal undertakings and can easily spot a leader of a criminal organization.</p> 
+		<p>You are proficient with all martial and simple weapons.</p> 
 		</description>
 	</element>
   </elements>
