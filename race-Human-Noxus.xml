@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-<element name="Noxian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_ZAUN">
+<element name="Noxian" type="Race" source="Homebrew" id="ID_HMBRW_RACE_NOXUS">
     <description>
 	     <h4>Noxian</h4>
         <span class="feature">Ability Score Increase.</span>Your Strength increases by 1, and two other ability scores each increase by 1.<br />
