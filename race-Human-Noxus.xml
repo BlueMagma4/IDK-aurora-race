@@ -88,7 +88,7 @@
 		<p>You gain a bonus to your constitution saves equal to your proficiency bonus</p> 
 		</description>
 		<rules>
-			<stat name="constitution:save:proficiency" value="proficiency"/>
+			<stat name="constitution:save:proficiency" value="proficiency" bonus="proficiency"/>
 		</rules>
 	</element>
 	<element name="Threatening presence" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_NOXIAN_THREAT">
